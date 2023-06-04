@@ -1,0 +1,9 @@
+python-decouple
+requests
+pillow
+pytorch
+anomalib
+ensemble_boxes
+opencv
+mmdet
+mmcv

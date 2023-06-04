@@ -1,0 +1,24 @@
+Defaulting to user installation because normal site-packages is not writeable
+Looking in links: https://download.openmmlab.com/mmcv/dist/cu102/torch1.11.0/index.html
+Requirement already satisfied: mmdet in /home/akay/.local/lib/python3.10/site-packages (2.25.0)
+Using cached `mminstall.txt` for mmdet==2.25.0: /home/akay/.cache/mim/mminstall/mmdet==2.25.0.txt
+Get 'mim' extra requirements from `mminstall.txt` for mmdet 2.25.0: ['mmcv-full>=1.3.17'].
+Requirement already satisfied: matplotlib in /home/akay/.local/lib/python3.10/site-packages (from mmdet) (3.5.2)
+Requirement already satisfied: six in /usr/lib/python3/dist-packages (from mmdet) (1.16.0)
+Requirement already satisfied: terminaltables in /home/akay/.local/lib/python3.10/site-packages (from mmdet) (3.1.10)
+Requirement already satisfied: numpy in /home/akay/.local/lib/python3.10/site-packages (from mmdet) (1.23.3)
+Requirement already satisfied: pycocotools in /home/akay/.local/lib/python3.10/site-packages (from mmdet) (2.0.4)
+Requirement already satisfied: mmcv-full>=1.3.17 in /home/akay/.local/lib/python3.10/site-packages (from mmdet) (1.5.3)
+Requirement already satisfied: Pillow in /usr/lib/python3/dist-packages (from mmcv-full>=1.3.17->mmdet) (9.0.1)
+Requirement already satisfied: addict in /home/akay/.local/lib/python3.10/site-packages (from mmcv-full>=1.3.17->mmdet) (2.4.0)
+Requirement already satisfied: opencv-python>=3 in /home/akay/.local/lib/python3.10/site-packages (from mmcv-full>=1.3.17->mmdet) (4.6.0.66)
+Requirement already satisfied: packaging in /home/akay/.local/lib/python3.10/site-packages (from mmcv-full>=1.3.17->mmdet) (21.3)
+Requirement already satisfied: pyyaml in /usr/lib/python3/dist-packages (from mmcv-full>=1.3.17->mmdet) (5.4.1)
+Requirement already satisfied: yapf in /home/akay/.local/lib/python3.10/site-packages (from mmcv-full>=1.3.17->mmdet) (0.32.0)
+Requirement already satisfied: python-dateutil>=2.7 in /home/akay/.local/lib/python3.10/site-packages (from matplotlib->mmdet) (2.8.2)
+Requirement already satisfied: cycler>=0.10 in /home/akay/.local/lib/python3.10/site-packages (from matplotlib->mmdet) (0.11.0)
+Requirement already satisfied: pyparsing>=2.2.1 in /usr/lib/python3/dist-packages (from matplotlib->mmdet) (2.4.7)
+Requirement already satisfied: kiwisolver>=1.0.1 in /home/akay/.local/lib/python3.10/site-packages (from matplotlib->mmdet) (1.4.3)
+Requirement already satisfied: fonttools>=4.22.0 in /home/akay/.local/lib/python3.10/site-packages (from matplotlib->mmdet) (4.33.3)
+Using cached `mminstall.txt` for mmcls==0.23.1: /home/akay/.cache/mim/mminstall/mmcls==0.23.1.txt
+Get 'mim' extra requirements from `mminstall.txt` for mmcls 0.23.1: [].
